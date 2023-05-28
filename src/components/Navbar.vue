@@ -15,11 +15,11 @@
       </button>
 
       <div :class="{ hidden: !isOpen }" class="absolute top-full right-4 p-3 bg-white rounded flex flex-col gap-2 text-center font-medium md:static md:flex-row md:items-center md:gap-10 md:bg-transparent z-50">
-        <router-link to="/" class="text-slate-900 md:text-slate-300 rounded py-2 hover:bg-slate-100 ">Overview</router-link>
-        <router-link to="/skills" class="text-slate-900 md:text-slate-300 rounded py-2 hover:bg-slate-100">Skills</router-link>
-        <router-link to="/portfolio" class="text-slate-900 md:text-slate-300 rounded py-2 hover:bg-slate-100">Portfolio</router-link>
-        <router-link to="/contact" class="text-slate-900 md:text-slate-300 rounded py-2 hover:bg-slate-100">Contact</router-link>
-        <router-link to="" class="px-8 py-3 bg-myGreen text-white rounded">Punya Project?</router-link>
+        <router-link to="/" class="text-slate-900 rounded py-2 px-4 hover:bg-slate-100 md:text-slate-300 md:hover:text-slate-900">Overview</router-link>
+        <router-link to="/skills" class="text-slate-900 rounded py-2 px-4 hover:bg-slate-100 md:text-slate-300 md:hover:text-slate-900">Skills</router-link>
+        <router-link to="/portfolio" class="text-slate-900 rounded py-2 px-4 hover:bg-slate-100 md:text-slate-300 md:hover:text-slate-900">Portfolio</router-link>
+        <router-link to="/contact" class="text-slate-900 rounded py-2 px-4 hover:bg-slate-100 md:text-slate-300 md:hover:text-slate-900">Contact</router-link>
+        <router-link to="" class="px-8 py-3 bg-myGreen text-white rounded">Have a Project?</router-link>
       </div>
     </div>
   </nav>

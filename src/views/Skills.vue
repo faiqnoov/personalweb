@@ -34,6 +34,7 @@
       <SkillItem :src="iconPreUrl + 'git/git-plain.svg'">Git</SkillItem>
       <SkillItem :src="iconPreUrl + 'nodejs/nodejs-plain.svg'">Node.js</SkillItem>
       <SkillItem :src="iconPreUrl + 'figma/figma-original.svg'">Figma</SkillItem>
+      <SkillItem :src="iconPreUrl + 'googlecloud/googlecloud-original.svg'">Google Cloud</SkillItem>
     </div>
 
     <!-- 
