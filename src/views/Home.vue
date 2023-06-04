@@ -4,7 +4,7 @@
     <div class="mt-10 md:w-1/2">
       <h1 class="text-4xl text-white">Hi, my name is</h1>
       <h1 class="text-4xl font-bold text-white mt-2">Muhammad <span class="text-myGreen">Fa'iq</span> Novriadi</h1>
-      <p class="text-slate-300 mt-7 text-lg">An Informatics Engineering student who focuses on web development, especially on the Front-End side using some of the latest frameworks such as TailwindCSS, VueJs, and Laravel. I have experienced as a programmerin about a year. Currently I am also interested in learning about Back-end and cloud computing technology. I'mlooking for opportunities to have new experiences and be able to collaborate on real projects with many people tocreate valuable products.</p>
+      <p class="text-slate-300 mt-7 text-lg">An Informatics Engineering student who focuses on web development, especially on the Front-End side using some of the latest frameworks such as TailwindCSS, VueJs, and Laravel. I have experienced as a programmer in about a year. Currently I am also interested in learning about Back-end and cloud computing technology. I'm looking for opportunities to have new experiences and be able to collaborate on real projects with many people to create valuable products.</p>
       <router-link to="/portfolio" class="flex items-center font-medium text-white mt-10 mb-16 group">
         See my portfolio
         <span class="inline-block rounded-full bg-slate-600 ml-3 group-hover:translate-x-2 transition">

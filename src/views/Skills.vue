@@ -26,6 +26,8 @@
       <SkillItem :src="iconPreUrl + 'vuejs/vuejs-original.svg'">Vue.js</SkillItem>
       <SkillItem :src="iconPreUrl + 'tailwindcss/tailwindcss-plain.svg'">Tailwind CSS</SkillItem>
       <SkillItem :src="iconPreUrl + 'laravel/laravel-plain.svg'">Laravel</SkillItem>
+      <SkillItem :src="iconPreUrl + 'sass/sass-original.svg'">SASS</SkillItem>
+      <SkillItem :src="iconPreUrl + 'jquery/jquery-original.svg'">jQuery</SkillItem>
     </div>
 
     <h2 class="text-xl text-slate-300 text-center mb-4">Others</h2>
