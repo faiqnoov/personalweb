@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Overview from '../views/Overview.vue'
 import Skills from '../views/Skills.vue'
 import Portfolio from '../views/Portfolio.vue'
+import PortfolioDetail from '../views/PortfolioDetail.vue'
 import Contact from '../views/Contact.vue'
 
 const routes = [
@@ -20,6 +21,12 @@ const routes = [
     path: '/skills',
     name: 'Skills',
     component: Skills
+  },
+  {
+    path: '/portfolio/detail/:id',
+    name: 'PortfolioDetail',
+    component: PortfolioDetail,
+    props: true,  // mengizinkan route params dipakai sebagai prop pada component
   },
   {
     path: '/portfolio',

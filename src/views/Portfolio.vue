@@ -14,11 +14,12 @@
     <!-- kanan -->
     <div class="lg:w-8/12 grid grid-cols-1 sm:grid-cols-2 gap-5">
 
-      <div v-for="portfolio in portfolios" :key="portfolio.id" class="bg-white bg-opacity-5 h-fit p-4 rounded text-center w-fit">
-        <img src="../assets/img/project1.png" alt="thumbnail" class="rounded mx-auto">
+      <router-link :to="{ name: 'PortfolioDetail', params: { id: portfolio.id }}" v-for="portfolio in portfolios" :key="portfolio.id" class="block bg-white bg-opacity-5 h-fit p-4 rounded text-center w-full">
+        <img v-if="portfolio.thumbnail" :src="portfolio.thumbnail" alt="thumbnail" class="rounded mx-auto">
+        <img v-else src="../assets/img/project1.png" alt="thumbnail" class="rounded mx-auto">
         <p class="text-lg font-semibold text-white mt-5 mb-2">{{ portfolio.name }}</p>
         <p class="text-xs font-semibold text-slate-400">{{ portfolio.category }}</p>
-      </div>
+      </router-link>
 
       <!-- <PortfolioItem src="../assets/img/project1.png">
         <template #title>Ini komponen</template>
